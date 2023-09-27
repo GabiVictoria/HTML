@@ -1,0 +1,44 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  header{
+    background-color: #F6B800;
+    height: 50px;
+    padding-left: 100px;
+    
+  }
+  footer{
+    color:#53321F;
+    background-color: #F6B800;
+    height: 50px;
+    padding-left: 50px;
+  }
+  main{
+    background-color: #EDD8BF;
+  }
+  li{ display: inline-block;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 10px;
+    color:#53321F;
+    }  
+    .livros{
+        display:inline-block;
+        width: 360px;
+        padding-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .opcao{
+        display: block;
+    }
+    img{
+        width: 200px;
+        height: 325px;
+    }
+    .comprar{
+        margin-left: 65px;
+    }
+    
