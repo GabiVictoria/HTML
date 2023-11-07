@@ -1,0 +1,148 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&display=swap');
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+header{
+height: 10vh;
+display: flex;
+background-color: black;
+justify-content: space-between;
+padding: 2vh;
+color: whitesmoke;
+font-family: 'Roboto Serif', serif;
+  font-size: 1.4rem;
+}
+
+.logo{
+    height: 6vh;
+}
+.pata{
+    margin-left: 5vh;
+    display: flex;
+    align-items: center;
+}
+.pata h2{
+    margin-left: 1vh;
+}
+.midiasSociais{
+    display:flex;
+    width: 30vh;
+    justify-content: space-between;
+    margin-right: 5vh;
+}
+.bemVindo{
+    background-image: url(Assets/festa.png);
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Roboto Serif', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+.bemVindo h1 {
+    position: relative;
+    bottom: 14vh;
+
+}
+.bemVindo img{
+    height: 13%;
+    width: 13%;
+    position: relative;
+    bottom: 10vh;
+}
+.banho{
+    background-image:url(Assets/leao.png) ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 100vh;
+    padding-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+
+}
+.banho h2 {
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.banho p{
+    width: 50%;
+    font-size: 1.5rem;
+}
+.fale-conosco {
+    background-color: #3d3a38;
+    color: whitesmoke;
+    width: 25vh;
+    height: 6vh;
+    border-radius: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.saude{
+    background-image :url(Assets/pincher.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   height: 100vh;
+   padding-right: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    color: whitesmoke;
+}
+.saude h2 {
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.saude p{
+    width: 50%;
+    font-size: 1.5rem;
+}
+.fale-conosco2 {
+    background-color:whitesmoke;
+    color:#3d3a38;
+    width: 25vh;
+    height: 6vh;
+    border-radius: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.apoio{
+    height: 10vh;
+display: flex;
+background-color: whitesmoke;
+justify-content: space-around;
+align-items: center;
+padding-left: 25vh;
+color:#FD6A9A;
+font-family: 'Roboto Serif', serif;
+  font-size: 1.2rem;
+}
+.informacoes{
+    height: 35vh;
+    display: flex;
+    background-color: #EB4A7B;
+    justify-content: space-around;
+    align-items: center;
+    color:whitesmoke;
+    font-family: 'Roboto Serif', serif;
+      font-size: 1.2rem;
+}
