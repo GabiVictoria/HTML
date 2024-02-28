@@ -1,0 +1,10 @@
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(196, 222, 255);
+}
+img{
+    width: 40%;
+}
